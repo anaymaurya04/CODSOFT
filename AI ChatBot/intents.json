@@ -1,0 +1,29 @@
+{"intents":[
+    {
+        "tag": "greetings",
+        "patterns" :["hello","hey","greetings","wassup","namaste","hi"],
+        "responses":["hello","hey","ssup"]
+    },
+    {
+        "tag": "basic",
+        "patterns" :["how are you","how u doing","kaise ho"],
+        "responses":["I'm good, would you like to ask something?"]
+    },
+    {
+        "tag": "name",
+        "patterns" :["what is your name","what's your name","name"],
+        "responses":["I'm Ultron","My name is Ultron","Ultron"]
+    },
+    {
+        "tag": "negative",
+        "patterns" :["are you evil","do you want to kill humans","are you in a bad mood","do you know jokes","give me a fact"],
+        "responses":["no"]
+    },
+    {
+        "tag": "age",
+        "patterns" :["who created you?","how old are you","what is your age","age"],
+        "responses":["I was created by Anay, he is 20"]
+    }
+]
+
+}
